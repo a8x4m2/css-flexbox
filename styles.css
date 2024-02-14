@@ -7,6 +7,19 @@
 
 .flex-container {
   border: 10px solid #7f00ff;
+  /*padding: 5px;*/
+  /*gap: 15px;*/
+  /*padding: 15px;*/
+
+  /*выравнивание элементов*/
+  /*flex-start - выравнивание с начала оси*/
+  /*flex-end - выравнивание с конца оси*/
+  /*center - выравнивание по центру оси*/
+  /*space-between - выравнивание равномерно распределить по оси от начала до конца*/
+  /*space-around - выравнивание равномерно распределить пространство вокруг элементов*/
+  /*space-around - выравнивание равномерное расстояние между контейнерами и элементами*/
+  justify-content: space-evenly;
+
 }
 
 .flex-item {
@@ -21,8 +34,9 @@
   /*flex: 1;*/
   /*width: 200px;*/
   /*width: 50%;*/
-  width: 33.33%;
-  margin: 5px;
+  /*width: calc(33.33% - 10px);*/
+  width: 100px;
+  /*margin: 5px;*/
 }
 
 .item-1 {
@@ -81,7 +95,8 @@
 
 
   /*min-height: 100vh;*/
-  height: 100vh;
+  /*height: 100vh;*/
+
 }
 
 @media screen and (max-width:  650px){
